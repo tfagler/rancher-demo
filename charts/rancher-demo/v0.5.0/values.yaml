@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: janeczku/rancher-demo
+  repository: monachus/rancher-demo:latest
   tag: 0.5.0
   pullPolicy: IfNotPresent
 

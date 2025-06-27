@@ -5,8 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: monachus/rancher-demo:latest
-  tag: 0.5.0
+  repository: monachus/rancher-demo
+  tag: latest
   pullPolicy: IfNotPresent
 
 nameOverride: ""

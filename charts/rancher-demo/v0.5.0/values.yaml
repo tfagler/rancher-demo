@@ -5,7 +5,7 @@
 replicaCount: 7
 
 image:
-  repository: bgulla/rancher-demo
+  repository: janeczku/rancher-dem
   tag: latest
   pullPolicy: IfNotPresent
 
@@ -14,9 +14,9 @@ fullnameOverride: ""
 
 app:
   localization:
-    title: "Rancher Demo App"
-    pets: "chameleons" # available pets include 'cows' and 'chameleons' and possibly 'cowmeleons'
-    color: "blue" # container background color (any color name from the CSS pallete)
+    title: "Technologent Rancher Demo App"
+    PETS: "chameleons" # available pets include 'cows' and 'chameleons' and possibly 'cowmeleons'
+    COLOR: "blue" # container background color (any color name from the CSS pallete)
 
 service:
   type: ClusterIP

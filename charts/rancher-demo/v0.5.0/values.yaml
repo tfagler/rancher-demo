@@ -5,7 +5,7 @@
 replicaCount: 7
 
 image:
-  repository: janeczku/rancher-dem
+  repository: janeczku/rancher-demo
   tag: latest
   pullPolicy: IfNotPresent
 

@@ -15,8 +15,8 @@ fullnameOverride: ""
 app:
   localization:
     title: "Technologent Rancher Demo App"
-    pets: "chameleons" # available pets include 'cows' and 'chameleons' and possibly 'cowmeleons'
-    container_color: "red" # container background color (any color name from the CSS pallete)
+    pets: "cowmeleons" # available pets include 'cows' and 'chameleons' and possibly 'cowmeleons'
+    container_color: "violet" # container background color (any color name from the CSS pallete)
 
 service:
   type: ClusterIP

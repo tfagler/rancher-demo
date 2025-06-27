@@ -5,7 +5,7 @@
 replicaCount: 7
 
 image:
-  repository: bashofmann/rancher-demo
+  repository: bgulla/rancher-demo
   tag: latest
   pullPolicy: IfNotPresent
 
